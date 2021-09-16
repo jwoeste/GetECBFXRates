@@ -9,7 +9,7 @@ namespace GetECBFXRates
     {
         static void Main(string[] args)
         {
-            List<FXRate> FXRates = new List<FXRate>(); //  ECBFXRates.GetECBFXRates();
+            List<FXRate> FXRates = new List<FXRate>(); 
 
             Console.WriteLine(@"Load http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");
             var doc = new XmlDocument();
